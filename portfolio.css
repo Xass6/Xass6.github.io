@@ -1,0 +1,396 @@
+html
+{
+    margin: 0;
+    display:flex;
+}
+body{
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+}
+#menu
+{
+    float: right;
+    width: 64px;
+    margin: 1%;
+}
+
+#ecriture
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    padding-top: 2%;
+    width: 80vw;
+}
+.texte1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+.texte{
+  font-family: 'Do Hyeon', sans-serif;
+}
+.texte2{
+  font-size: 80px;
+}
+.police{
+  font-family: 'Rock Salt', cursive;
+}
+h2{
+  font-size: 40px;
+}
+.cass
+{
+    font-family: 'Finger Paint', cursive;
+    font-size: 40px;
+}
+
+.dvw
+{
+    font-family: 'Over the Rainbow', cursive;
+    font-size: 60px;
+}
+.home
+{
+  width: 40px;
+  position: fixed;
+  top: 50%;
+  border: 2px black solid;
+  padding: 3px;
+  border-radius: 70%;
+}
+a:link
+{
+cursor: url('panda.png'), pointer;
+}
+
+.page
+{
+  width: 100vw;
+  height: 60vh;
+  border-bottom: 2px black solid;
+  border-top: 2px black solid;
+}
+.page1
+{
+  width: 100vw;
+  height: 18vh;
+  border-bottom: 2px black solid;
+  border-top: 2px black solid;
+}
+#back1
+{
+    width: 100vw;
+    height: 30vh;
+    background: url("web.jpg") fixed no-repeat;
+    background-size: cover;
+}
+#back3
+{
+    width: 100vw;
+    height: 30vh;
+    background: url("heart.jpg") fixed no-repeat;
+    background-size: cover;
+}
+#back2
+{
+    width: 100vw;
+    height: 30vh;
+      background: url("create.jpg") fixed no-repeat;
+    background-size: cover;
+}
+
+#home
+{
+  width: 100vw;
+  height: 100vh;
+  background: url("cerisiers.jpg") fixed no-repeat;
+  background-size: cover;
+}
+#about{
+  background-color: rgba(221,214,221,0.8);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#compt{
+  background-color:rgba(239,209,209,0.8);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.image
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 12vh;
+  width: 100vw;
+}
+.per2
+{
+  display: flex;
+  flex-direction: column;
+}
+.per4
+{
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+}
+.texte3
+{
+  font-size: 60px;
+  margin-top: 3vh;
+}
+#project
+{
+  background-color: rgba(219,217,232,0.8);
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px black solid;
+  border-top: 2px black solid;
+  text-align: center;
+}
+.ttlien
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.lien
+{
+  background: url("screnn(3).png") no-repeat;
+  width: 17vw;
+  height: 30vh;
+}
+.lien:hover
+{
+  background: url("screen.png") no-repeat;
+  width: 17vw;
+  height: 30vh;
+}
+.lien1:hover
+{
+  background: url("screen(project1).png") no-repeat;
+  width: 17vw;
+  height: 30vh;
+}
+.create
+{
+  width: 100vw;
+  height: 30vh;
+}
+.two
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+#arrow
+{
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+}
+#Contact
+{
+  background-color: rgba(237,227,229,0.8);
+  display: flex;
+}
+.ttlogo
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.sakuraJS{
+  width: 200px;
+}
+
+
+/* MEDIA QUERY POUR RESPONSIVE */
+
+
+
+@media (max-width: 800px){
+
+#home
+{
+  display: flex;
+  flex-direction: row-reverse;
+}
+#menu
+{
+  height: 50px;
+}
+.page1{
+  height: 25vh;
+}
+.texte4{
+    font-size: 1em;
+  }
+.texte5{
+    font-size: 2em;
+    }
+.texte{
+    margin: 0;
+}
+.texte1{
+    margin: 0;
+}
+
+  .two{
+    display: flex;
+    flex-direction: column ;
+  }
+  .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+  }
+  .sakura
+  {
+    width: 30vw;
+    height: 10vh;
+  }
+  #back1
+  {
+    background: url("web1.jpg") fixed no-repeat;
+    background-size: cover;
+  }
+  #back2
+  {
+    background: url("create3.jpg") fixed no-repeat;
+    background-size: cover;
+  }
+  #back3
+  {
+    background: url("heart1.jpg") fixed no-repeat;
+    background-size: cover;
+  }
+  .Descr
+  {
+    width: 30vw;
+    height: 6vh;
+  }
+  .per2
+  {
+    margin: 2vh;
+  }
+  #arrow
+  {
+    left: 40%;
+  }
+  #ecriture{
+    display: flex;
+    align-items: center;
+  }
+  .ttlien
+  {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .lien
+  {
+    background: url("screen(ptit).png") no-repeat;
+    width: 20vw;
+    height: 20vh;
+  }
+  .lien:hover
+  {
+    background: url("screen().png") no-repeat;
+    width: 20vw;
+    height: 20vh;
+  }
+  .lien1:hover
+  {
+    background: url("screen(1).png") no-repeat;
+    width: 20vw;
+    height: 20vh;
+  }
+}
+
+
+
+/*ANIMATIONS*/
+
+
+
+.jello-horizontal {
+	-webkit-animation: jello-horizontal 0.9s infinite both;
+	        animation: jello-horizontal 0.9s infinite both;
+}
+@-webkit-keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes jello-horizontal {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+            transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+            transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+            transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+            transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+            transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+  }
+}
